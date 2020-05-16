@@ -18,6 +18,7 @@ try:
 
     f.write(f'{name}, {address}, {phone_number}\n')  # writing information to file
     f.close()
+    print(f'({name}, {address}, {phone_number}) added to file.')
 
 except IOError:
     print(f'Error reading file {name_of_file}')
